@@ -5,7 +5,7 @@ YouTube Subscription Exporter
 Installation
 ====
 1. Download a user script manager, such as `Violentmonkey <https://violentmonkey.github.io/>`_ (recommended) or `Tampermonkey <https://www.tampermonkey.net/>`_.
-2. Install the `YouTube Subscription Exporter `<https://github.com/Velocidensity/youtube-subscription-exporter/blob/main/youtube_sub_exporter.user.js?raw=1>`_ script.
+2. Install the `YouTube Subscription Exporter <https://github.com/Velocidensity/youtube-subscription-exporter/blob/main/youtube_sub_exporter.user.js?raw=1>`_ script.
 
 Usage
 ====
