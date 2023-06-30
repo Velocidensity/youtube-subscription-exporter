@@ -6,7 +6,7 @@ This script will export subscriptions from a YouTube channel, in a format matchi
 
 Note
 ====
-When possible, using `Google Takeout <https://takeout.google.com/>`_ is preferred to this script, as it's the official supported method, and it does not need to make a separate request to fetch the ID for every channel.
+When possible, using `Google Takeout <https://takeout.google.com/>`_ is preferred to this script, as it's the official supported method, and doesn't have to make a new request for every channel ID.
 
 Unfortunately, this option only appears to export data from the main/default channel, not any other ones on the account, which lead me to create this script.
 
