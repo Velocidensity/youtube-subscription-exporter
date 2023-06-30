@@ -2,9 +2,13 @@
 YouTube Subscription Exporter
 ====
 
+This script will export subscriptions from a YouTube channel, in a format matching Google's own Takeout tool, and compatible with third party tools such as `FreeTube <https://github.com/FreeTubeApp/FreeTube>`_, `Invidious <https://github.com/iv-org/invidious>`_ and `NewPipe <https://github.com/TeamNewPipe/NewPipe>`_.
+
 Note
 ====
-When possible, using `Google Takeout <https://takeout.google.com/>`_ is preferred to this script, as it also exports channel IDs. However, this option only seems to export data from the main/default channel, not any other ones on the account, effectively making it useless for my usecase.
+When possible, using `Google Takeout <https://takeout.google.com/>`_ is preferred to this script, as it's the official supported method, and it does not need to make a separate request to fetch the ID for every channel.
+
+Unfortunately, this option only appears to export data from the main/default channel, not any other ones on the account, which lead me to create this script.
 
 For instructions on how to use Takeout for this, see the `Invidious Documentation page <https://docs.invidious.io/export-youtube-subscriptions/>`_ on this subject.
 
